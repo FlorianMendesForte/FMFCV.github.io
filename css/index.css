@@ -7,7 +7,9 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("https://images2.alphacoders.com/108/1083659.jpg");
+    background-imae: url("https://images2.alphacoders.com/108/1083659.jpg");
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -24,7 +26,7 @@ h2{
 header, footer{
     width: 100%;
     padding: 60px;
-    background: url("https://sm.mashable.com/t/mashable_in/photo/default/nasa-galaxy_9pu4.1248.jpg");
+    background: url("http://www.quatuor-france.fr/wp-content/themes/options/images/skins/headers/full_width/header-purpleHaze.jpg");
     box-shadow: 0px 0px 15px;
     border-radius: 0px;    
 }
@@ -65,6 +67,10 @@ section > div{
 .photo{
     text-align: center;
 }
+/*FORMATIONS*/
+.exp{
+    padding: 40px;
+}
 /*SECTIONS COMPETENCES*/
 .h3gauche{
     width: auto;
@@ -93,7 +99,7 @@ section > div{
 .interet{
     flex: 0 1 50%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column-reverse;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -103,3 +109,4 @@ section > div{
     border-radius: 50%;
     box-shadow: 0px 0px 30px #555;
 }
+
